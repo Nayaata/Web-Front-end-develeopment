@@ -13,7 +13,7 @@ This application is specially developed for ski & snowboard lovers. The main ide
 
 This app will help you to find the every kind of information about the mountain conditions, avalanche danger, courses, and events. You can add some report of avalanche test by adding pictures and description about the place, weather and the conditions. The main idea is to share your experience with other people because in Bulgaria we don't have a real Avalanche Bulletin. Every user can have privet account and profile.
 
-###Deliverables 
+### Deliverables 
   * Record a short video uploaded on YouTube your application - <a href="#">AVALANCHE REPORT video</a>
   * Registered application at Telerik Academy Showcase System - <a href="#">Showcase System - AVALANCHE REPORT</a>
   * Link for the GitHub repository of our App - <a href="https://github.com/Nayaata/Web-Front-end-develeopment">AVALANCHE REPORT GitHub repository</a>
