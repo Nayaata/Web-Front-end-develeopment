@@ -9,39 +9,127 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./node_modules/toastr/build/toastr.min.css">
     <link rel="stylesheet" href="./css/images.css">
+    <link rel="stylesheet" href="./css/home.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-inverse">
+<div class="bgNav">
+<header class="container">
+    <nav class="navbar navbar-custom">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                 </button>
-                <a class="navbar-brand" href="#">Logo</a>
+                </button>
+                <a class="navbar-brand" href="#/"><strong>LOGO</strong></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#/home">Home</a></li>
-                    <li><a href="#/about">About</a></li>
-                    <li><a href="#">Deals</a></li>
-                    <li><a href="#">Stores</a></li>
-                    <li><a href="#/images">Images</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">AVALANCHE BULLETIN
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"/>BULLETIN</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">AVALANCHE DANGER</a></li>
+                            <li><a href="#">EQUIPMENT</a></li>
+                            <li><a href="#">MORE INFO</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">SNOW REPORT
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"/>REPORT</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">CONDITIONS</a></li>
+                            <li><a href="#">FORECAST</a></li>
+                            <li><a href="#">MORE INFO</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#/images">GALLERY</a></li>
+                    <li><a href="#/about">ABOUT</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#/register">Register</a></li>
-                    <li><a id="logIn" href="#/login">Sign In</a></li>
-                    <li><a href="#/logout" id="logOut" class="hidden" href="#/login">Logout</a></li>
+                <ul class="nav navbar-nav navbar-right" id="logged-out">
+                    <li><a href="#/register">SIGN UP</a></li>
+                    <li><a id="logIn" href="#/login">SIGN IN</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" id="logged-in">
+                    <!--<li><a href="#/profile">PROFILE</a></li>-->
+                    <li><a href="#/logout" id="logOut" class="hidden">LOGOUT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div id="main-content">
+</header>
+</div>
+
+<div id="main-content">
+</div>
+
+<footer>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 footerleft ">
+            <h6 class="heading7">About Us</h6>
+            <ul class="footer-ul">
+                <li><a href="#"> Career</a></li>
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Terms & Conditions</a></li>
+                <li><a href="#"> Client Gateway</a></li>
+                <li><a href="#"> Ranking</a></li>
+                <li><a href="#"> Case Studies</a></li>
+                <li><a href="#"> Frequently Ask Questions</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+            <h6 class="heading7">Information</h6>
+            <ul class="footer-ul">
+                <li><a href="#"> Career</a></li>
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Terms & Conditions</a></li>
+                <li><a href="#"> Client Gateway</a></li>
+                <li><a href="#"> Ranking</a></li>
+                <li><a href="#"> Case Studies</a></li>
+                <li><a href="#"> Frequently Ask Questions</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 paddingtop-bottom">
+            <h6 class="heading7">Contact Us</h6>
+            <div class="post">
+                <p><i class="fa fa-phone"></i> Phone: 3598 888 888</p>
+                <p><i class="fa fa-phone"></i> Fax: 03 8888 8889</p>
+                <p><i class="fa fa-envelope"></i> Email : info@avalanchereport.com</p>
+                <div></div>
+                <p><i class="fa fa-map-pin"></i> Postal address </p>
+                <p><i class=""></i> 55, Milin Kamuk Street </p>
+                <p><i class=""></i> Sofia </p>
+                <p><i class=""></i> Bulgaria </p>
+            </div>
+        </div>
     </div>
-    <footer class="container-fluid text-center">
-    </footer>
+</div>
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+    <div class="container">
+        <div class="col-md-6">
+            <p>© 2016 - All Rights with Webenlance</p>
+        </div>
+        <div class="col-md-6">
+            <ul class="bottom_ul">
+                <li><a href="#">webenlance.com</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Faq's</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
     <!--libs-->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/handlebars/dist/handlebars.min.js"></script>
