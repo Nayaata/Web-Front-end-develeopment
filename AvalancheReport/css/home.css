@@ -6,6 +6,26 @@ html, body {
     font-family: proximaSemiboldFont;
     src: url('./../fonts/proxima-nova-semibold.otf');
 }
+
+@font-face {
+    font-family: proximaNovaFont;
+    src: url('./../fonts/proxima-nova.otf');
+}
+
+@font-face {
+    font-family: ralewayLightFont;
+    src: url('./../fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: proximaBoldFont;
+    src: url('./../fonts/proxima-nova-bold.otf');
+}
+
+@font-face {
+    font-family: fontAwesomeFont;
+    src: url('./../fonts/fontawesome-webfont.ttf');
+}
 /* Remove the navbar's default rounded borders and increase the bottom margin */
 .bgNav{
     width: 100%;
@@ -40,22 +60,104 @@ html, body {
     text-decoration: none;
 }
 
-/*.imgwrapper {*/
-    /*width: 100%;*/
-    /*max-width: 1400px;*/
-/*}*/
-
-.yellowBG{
-    background-color: #F6B431;
-    height: 600px;
-    width: 1390px;
-    margin-left: 210px;
-}
 .full-width-div {
     position: absolute;
     width: 100%;
     margin: 0;
     margin-left: -15px;
+    margin-top: -400px;
+}
+.bgColor{
+    position: absolute;
+    list-style: none;
+}
+/*.whiteBg{*/
+    /*position: relative;*/
+    /*background-color: white;*/
+    /*z-index: -1;*/
+    /*height: 600px;*/
+    /*width: 200px;*/
+    /*left: 0px;*/
+    /*top: 0px;*/
+/*}*/
+.yellowBG{
+    position: relative;
+    background-color: #F6B431;
+    z-index: -1;
+    height: 600px;
+    width: 1195px;
+    right: 0px;
+    top: 0px;
+    margin-left: 139px;
+}
+.divTxt{
+    position: relative;
+    z-index: 0;
+    margin-top: 200px;
+    margin-left: 650px;
+}
+.title{
+    color: #344D71;
+    font-size: 40px;
+    font-family: ralewayLightFont;
+    font-weight: bold;
+}
+.txt{
+    color: white;
+    font-size: 20px;
+    font-family: proximaSemiboldFont;
+}
+.lightBlueBG{
+    background-color: #83969F;
+    height: 105px;
+    width: 990px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -20px;
+}
+.txtSecond{
+    position: relative;
+    z-index: 0;
+    font-family: proximaSemiboldFont;
+    font-size: 20px;
+    color: white;
+    margin-top: -180px;
+    margin-left: -500px;
+    white-space: pre;
+    text-align: left;
+}
+.enroll{
+    font-family: proximaNovaFont;
+    font-size: 20px;
+}
+.enroll a{
+    color: white;
+}
+.btnCall{
+    background-color: #F6B431;
+}
+div.form{
+    /*float: right;*/
+    margin-left:auto;
+    margin-right:0px;
+}
+.form {
+    position: absolute;
+    background-color: #344D71;
+    color: white;
+    padding: 30px;
+    height: 380px;
+}
+
+.callForm{
+    width: 280px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.btnCall a {
+    font-size: 14px;
+    color: white;
+    text-align: center;
 }
 /*.navbar-inverse .navbar-brand:hover,*/
 /*.navbar-inverse .navbar-brand:focus {*/
@@ -142,7 +244,7 @@ html, body {
 /* Add a gray background color and some padding to the footer */
 
 footer {
-    margin-top: 800px;
+    margin-top: 2500px;
     background-color:#253957;
     min-height:420px;
     max-height:431px;
