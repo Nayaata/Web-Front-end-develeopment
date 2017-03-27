@@ -2,6 +2,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: #ECEDF1;
+}
 @font-face {
     font-family: proximaSemiboldFont;
     src: url('./../fonts/proxima-nova-semibold.otf');
@@ -13,8 +17,17 @@ html, body {
 }
 
 @font-face {
+    font-family: ubuntuMediumFont;
+    src: url('./../fonts/Ubuntu-M.ttf');
+}
+
+@font-face {
     font-family: ralewayLightFont;
     src: url('./../fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: ralewayMediumFont;
+    src: url('./../fonts/Raleway-Medium.ttf');
 }
 
 @font-face {
@@ -71,15 +84,6 @@ html, body {
     position: absolute;
     list-style: none;
 }
-/*.whiteBg{*/
-    /*position: relative;*/
-    /*background-color: white;*/
-    /*z-index: -1;*/
-    /*height: 600px;*/
-    /*width: 200px;*/
-    /*left: 0px;*/
-    /*top: 0px;*/
-/*}*/
 .yellowBG{
     position: relative;
     background-color: #F6B431;
@@ -116,15 +120,15 @@ html, body {
     margin-left: -20px;
 }
 .txtSecond{
-    position: relative;
+    position: absolute;
     z-index: 0;
     font-family: proximaSemiboldFont;
     font-size: 20px;
     color: white;
-    margin-top: -180px;
-    margin-left: -500px;
     white-space: pre;
     text-align: left;
+    right: 200px;
+    bottom: 110px;
 }
 .enroll{
     font-family: proximaNovaFont;
@@ -133,13 +137,11 @@ html, body {
 .enroll a{
     color: white;
 }
-.btnCall{
-    background-color: #F6B431;
-}
+
 div.form{
     /*float: right;*/
     margin-left:auto;
-    margin-right:0px;
+    width: 400px;
 }
 .form {
     position: absolute;
@@ -147,18 +149,57 @@ div.form{
     color: white;
     padding: 30px;
     height: 380px;
+    right: 100px;
+    top: -15px;
 }
 
 .callForm{
     width: 280px;
-    margin-left: 55px;
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.callForm h1{
+    font-family: ralewayMediumFont;
+    font-size: 24px;
+}
+.btnCall{
+    background-color: #F6B431;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .btnCall a {
     font-size: 14px;
     color: white;
-    text-align: center;
+    font-family: proximaSemiboldFont;
 }
+.callForm label{
+    font-family: ubuntuMediumFont;
+    font-size: 13px;
+}
+.txtP{
+    font-family: proximaSemiboldFont;
+    font-size: 14px;
+}
+.info{
+    color:#466289;
+    background-color: white;
+    position: relative;
+}
+.info ul{
+    list-style-type: circle;
+    color: #F6B431;
+}
+.info ul span {
+    color: #466289;
+}
+.arrCircle {
+    color: #466289;
+    font-size: 16px;
+}
+
+
 /*.navbar-inverse .navbar-brand:hover,*/
 /*.navbar-inverse .navbar-brand:focus {*/
 /*color: #5E5E5E;*/
