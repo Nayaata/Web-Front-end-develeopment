@@ -182,24 +182,49 @@ div.form{
     font-family: proximaSemiboldFont;
     font-size: 14px;
 }
+.container.middleBoz{
+    width: 380px;
+    /*margin: 0 auto;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .info{
     color:#466289;
     background-color: white;
     position: relative;
+    top: 364px;
+    left:84px;
 }
-.info ul{
+.middle{
+    color:#466289;
+    background-color: #FBFBFB;
+    position: relative;
+    top: 364px;
+    left:84px;
+    width: 300px;
+}
+.middle ul{
     list-style-type: circle;
     color: #F6B431;
 }
-.info ul span {
+.middle ul span {
     color: #466289;
 }
 .arrCircle {
     color: #466289;
     font-size: 16px;
 }
-
-
+.blue{
+    background-color: #466289;
+}
+.orange{
+    background-color:#F6B431;
+    border: none;
+}
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*.navbar-inverse .navbar-brand:hover,*/
 /*.navbar-inverse .navbar-brand:focus {*/
 /*color: #5E5E5E;*/
