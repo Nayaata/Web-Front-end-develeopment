@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Avalanche Report</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/toastr/build/toastr.min.css">
+    <link rel="stylesheet" href="./css/images.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                 </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/home">Home</a></li>
+                    <li><a href="#/about">About</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#/images">Images</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/register">Register</a></li>
+                    <li><a id="logIn" href="#/login">Sign In</a></li>
+                    <li><a href="#/logout" id="logOut" class="hidden" href="#/login">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main-content">
+    </div>
+    <footer class="container-fluid text-center">
+    </footer>
+    <!--libs-->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/toastr/build/toastr.min.js"></script>
+    <script src="./node_modules/sammy/lib/min/sammy-latest.min.js"></script>
+    <script src="./node_modules/systemjs/dist/system.js"></script>
+    <!--app-->
+    <script src="./js/system-config.js"></script>
+    <script>
+        System.import('main');
+    </script>
+</body>
+</html>

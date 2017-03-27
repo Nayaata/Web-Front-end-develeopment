@@ -1,0 +1,28 @@
+.img-thubnail{
+    width: 300px;
+    height: 200px;
+}
+
+@media (min-width: 481px) {
+    .portfolio img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .portfolio img {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 992px) {
+    .portfolio img {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .portfolio img {
+        width: 20%;
+    }
+}

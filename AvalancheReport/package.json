@@ -1,0 +1,39 @@
+{
+  "name": "avalanche-report",
+  "version": "1.0.0",
+  "description": "avalanche-report-site",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "start2": "cd css && node-sass --watch home.scss home.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nayaata/Web-Front-end-develeopment"
+  },
+  "author": "Niya Keranova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nayaata/Web-Front-end-develeopment/issues"
+  },
+  "homepage": "https://github.com/Nayaata/Web-Front-end-develeopment#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "crypto-js": "^3.1.9-1",
+    "handlebars": "^4.0.5",
+    "http-server": "^0.9.0",
+    "install": "^0.8.7",
+    "jquery": "^3.1.1",
+    "noty": "^2.4.0",
+    "npm": "^4.3.0",
+    "sammy": "^0.7.6",
+    "systemjs": "^0.19.38",
+    "systemjs-plugin-babel": "^0.0.15",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0",
+    "chai": "^3.5.0",
+    "sinon": "^1.17.5"
+  }
+}
