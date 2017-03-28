@@ -184,13 +184,16 @@ div.form{
     font-family: ubuntuMediumFont;
     font-size: 13px;
 }
-.txtP{
+.txtP {
     font-family: proximaSemiboldFont;
     font-size: 14px;
 }
+.pTxtT {
+    margin-top: 20px;
+}
 .container.middleBox{
-    width: 340px;
-    /*margin: 0 auto;*/
+    /*width: 340px;*/
+
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
@@ -202,8 +205,11 @@ div.form{
     position: relative;
     top: 364px;
     left:79px;
-    height: 480px;
+    height: 520px;
 }
+/*.info1{*/
+    /*width: 340px;*/
+/*}*/
 .lastInfo{
    width:414px;
 }
@@ -213,7 +219,7 @@ div.form{
     top: 364px;
     left:79px;
     width: 300px;
-    height: 480px;
+    height: 520px;
 }
 .middle ul{
     padding-right: 20px;
@@ -244,7 +250,7 @@ div.form{
 .blue{
     background-color: #466289;
     padding: 10px;
-    /*padding-top: 10px;*/
+    margin-top: 55px;
     /*padding-bottom: 10px;*/
 }
 .orange{
@@ -252,6 +258,17 @@ div.form{
     border: none;
     padding: 10px;
     margin-left:30px;
+}
+
+.imgDiv span, .arrCircle a{
+    position: relative;
+    z-index: 0;
+    color: white;
+    bottom: 50px;
+    left:30px;
+}
+.imgDiv a{
+    color: white;
 }
 .content{
     margin-top: 20px;
@@ -371,13 +388,6 @@ background-color: #253957;
     color: #253957;
 
 }
-/*.lastUl{*/
-    /*list-style-type: none;*/
-
-/*}*/
-/*.lastUl li{*/
-    /*display: inline-block;*/
-/*}*/
 .full-colors{
     position: relative;
     top: 328px;
@@ -390,7 +400,6 @@ background-color: #253957;
     top: 30px;
 }
 
-
 /* footer */
 footer {
     position: relative;
@@ -401,29 +410,70 @@ footer {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
 }
-.footerleft { margin-top:50px; padding:0 36px; }
-.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+.footerleft {
+    margin-top:50px;
+    padding:0 36px;
+}
+.logofooter {
+    margin-bottom:10px;
+    font-size:25px;
+    color:#fff;
+    font-weight:700;
+}
 
-.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
-.footerleft p i { width:20px; color:#999;}
+.footerleft p {
+    color:#fff;
+    font-size:12px !important;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:15px;
+}
+.footerleft p i {
+    width:20px;
+    color:#999;
+}
 
-
-.paddingtop-bottom {  margin-top:50px;}
-.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
-.footer-ul li { line-height:29px; font-size:12px;}
-.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
-.footer-ul i { margin-right:10px;}
-.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
-
+.paddingtop-bottom {
+    margin-top:50px;
+}
+.footer-ul {
+    list-style-type:none;
+    padding-left:0px;
+    margin-left:2px;
+}
+.footer-ul li {
+    line-height:29px;
+    font-size:12px;
+}
+.footer-ul li a {
+    color:#a0a3a4;
+    transition: color 0.2s linear 0s, background 0.2s linear 0s;
+}
+.footer-ul i {
+    margin-right:10px;
+}
+.footer-ul li a:hover {
+    transition: color 0.2s linear 0s, background 0.2s linear 0s;
+    color:#ff670f;
+}
 .social:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
-
-.icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
-.icon-ul li { line-height:75px; width:100%; float:left;}
-.icon { float:left; margin-right:5px;}
+.icon-ul {
+    list-style-type:none !important;
+    margin:0px;
+    padding:0px;
+}
+.icon-ul li {
+    line-height:75px;
+    width:100%;
+    float:left;
+}
+.icon {
+    float:left;
+    margin-right:5px;
+}
 
 
 .copyright { min-height:40px; background-color:#000000;}
