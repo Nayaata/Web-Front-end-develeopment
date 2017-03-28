@@ -380,15 +380,21 @@ background-color: #253957;
 /*}*/
 .full-colors{
     position: relative;
-    top:-1472px;
+    top: 328px;
     background-color: white;
     width: 100%;
-    height: 650px;
+    height: 550px;
 }
+.lastBox .contentPost{
+    position: relative;
+    top: 30px;
+}
+
+
 /* footer */
 footer {
     position: relative;
-    bottom: 0px;
+    top: 300px;
     background-color:#253957;
     /*min-height:420px;*/
     max-height:431px;

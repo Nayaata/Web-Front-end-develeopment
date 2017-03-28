@@ -33,29 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.handlebars" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="182" column="47" selection-start-line="182" selection-start-column="47" selection-end-line="182" selection-end-column="47" />
+            <state relative-caret-position="374">
+              <caret line="214" column="71" selection-start-line="214" selection-start-column="71" selection-end-line="214" selection-end-column="71" />
               <folding>
                 <element signature="e#1149#1156#0#HTML" expanded="true" />
                 <element signature="e#1966#1973#0#HTML" expanded="true" />
                 <element signature="e#3655#3662#0#HTML" expanded="true" />
                 <element signature="e#4821#4828#0#HTML" expanded="true" />
                 <element signature="e#5162#5169#0#HTML" expanded="true" />
-                <element signature="e#11186#11193#0#HTML" expanded="true" />
-                <element signature="e#11449#11456#0#HTML" expanded="true" />
+                <element signature="e#11268#11275#0#HTML" expanded="true" />
+                <element signature="e#11547#11554#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="347" column="13" selection-start-line="347" selection-start-column="13" selection-end-line="347" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="387" column="21" selection-start-line="387" selection-start-column="10" selection-end-line="387" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -79,8 +79,8 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/templates/about-us.handlebars" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/templates/home.handlebars" />
         <option value="$PROJECT_DIR$/css/home.css" />
+        <option value="$PROJECT_DIR$/templates/home.handlebars" />
       </list>
     </option>
   </component>
@@ -242,12 +242,12 @@
       <updated>1490570943953</updated>
       <workItem from="1490570952157" duration="1732000" />
       <workItem from="1490611880581" duration="635000" />
-      <workItem from="1490612699460" duration="52900000" />
+      <workItem from="1490612699460" duration="53411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55267000" />
+    <option name="totallyTimeSpent" value="55778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -465,27 +465,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="387" column="21" selection-start-line="387" selection-start-column="10" selection-end-line="387" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="182" column="47" selection-start-line="182" selection-start-column="47" selection-end-line="182" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="214" column="71" selection-start-line="214" selection-start-column="71" selection-end-line="214" selection-end-column="71" />
           <folding>
             <element signature="e#1149#1156#0#HTML" expanded="true" />
             <element signature="e#1966#1973#0#HTML" expanded="true" />
             <element signature="e#3655#3662#0#HTML" expanded="true" />
             <element signature="e#4821#4828#0#HTML" expanded="true" />
             <element signature="e#5162#5169#0#HTML" expanded="true" />
-            <element signature="e#11186#11193#0#HTML" expanded="true" />
-            <element signature="e#11449#11456#0#HTML" expanded="true" />
+            <element signature="e#11268#11275#0#HTML" expanded="true" />
+            <element signature="e#11547#11554#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="347" column="13" selection-start-line="347" selection-start-column="13" selection-end-line="347" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
