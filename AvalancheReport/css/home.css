@@ -39,6 +39,11 @@ body{
     font-family: fontAwesomeFont;
     src: url('./../fonts/fontawesome-webfont.ttf');
 }
+
+@font-face {
+    font-family: openSansFont;
+    src: url('./../fonts/OpenSans-Regular.ttf');
+}
 /* Remove the navbar's default rounded borders and increase the bottom margin */
 .bgNav{
     width: 100%;
@@ -183,7 +188,7 @@ div.form{
     font-family: proximaSemiboldFont;
     font-size: 14px;
 }
-.container.middleBoz{
+.container.middleBox{
     width: 340px;
     /*margin: 0 auto;*/
     padding-top: 20px;
@@ -196,23 +201,40 @@ div.form{
     background-color: white;
     position: relative;
     top: 364px;
-    left:84px;
-    height: 450px;
+    left:79px;
+    height: 480px;
+}
+.lastInfo{
+   width:414px;
 }
 .middle{
     color:#466289;
     position: relative;
     top: 364px;
-    left:84px;
+    left:79px;
     width: 300px;
-    height: 450px;
+    height: 480px;
 }
 .middle ul{
+    padding-right: 20px;
     list-style-type: circle;
     color: #F6B431;
 }
+.middle ul li{
+    font-family: proximaNovaFont;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.pTxt{
+    font-family: proximaNovaFont;
+    font-size: 14px;
+}
 .middle ul span {
     color: #466289;
+}
+.pTitle{
+    font-size: 20px;
+    font-family: openSansFont;
 }
 .arrCircle {
     color: #466289;
@@ -220,10 +242,15 @@ div.form{
 }
 .blue{
     background-color: #466289;
+    padding: 10px;
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
 }
 .orange{
     background-color:#F6B431;
     border: none;
+    padding: 10px;
+    margin-left:30px;
 }
 .content{
     margin-top: 20px;
@@ -379,8 +406,9 @@ background-color: #253957;
 /* footer */
 footer {
     /*margin-top: 1400px;*/
+    /*position:fixed;*/
     background-color:#253957;
-    min-height:420px;
+    /*min-height:420px;*/
     max-height:431px;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
