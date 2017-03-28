@@ -232,6 +232,7 @@ div.form{
 .middle ul span {
     color: #466289;
 }
+
 .pTitle{
     font-size: 20px;
     font-family: openSansFont;
@@ -344,7 +345,7 @@ background-color: #253957;
 }
 .online{
     border-left: 1px solid lightgray;
-    height: 1900px;
+    height: 100px;
 }
 .full-color p {
     margin-left: 100px;
@@ -370,43 +371,24 @@ background-color: #253957;
     color: #253957;
 
 }
-/*.lastBox{*/
-    /*position: relative;*/
-    /*background-color: white;*/
-/*}*/
-/*.colColumn{*/
-    /*background-color: white;*/
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*bottom:800px;*/
-    /*height: 300px;*/
-/*}*/
-/*.zIndex{*/
-    /*position: absolute;*/
-/*}*/
-/*.contentPostImg img{*/
-    /*position: relative;*/
-    /*z-index: -1;*/
-/*}*/
-/*.contentPostImg span a, .contentPostImg span{*/
-    /*position: relative;*/
-    /*z-index: 0;*/
-    /*margin-left: -150px;*/
-    /*margin-top: 150px;*/
-    /*color: white;*/
-/*}*/
 /*.lastUl{*/
     /*list-style-type: none;*/
-    /*display: inline-block;*/
+
 /*}*/
 /*.lastUl li{*/
     /*display: inline-block;*/
 /*}*/
-
+.full-colors{
+    position: relative;
+    top:-1472px;
+    background-color: white;
+    width: 100%;
+    height: 650px;
+}
 /* footer */
 footer {
-    /*margin-top: 1400px;*/
-    /*position:fixed;*/
+    position: relative;
+    bottom: 0px;
     background-color:#253957;
     /*min-height:420px;*/
     max-height:431px;
