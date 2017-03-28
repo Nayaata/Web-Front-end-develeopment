@@ -7,10 +7,13 @@ body{
     background-color: #ECEDF1;
 }
 @font-face {
+    font-family: proximaItalicFont;
+    src: url('./../fonts/proxima-nova-regular-italic.otf');
+}
+@font-face {
     font-family: proximaSemiboldFont;
     src: url('./../fonts/proxima-nova-semibold.otf');
 }
-
 @font-face {
     font-family: proximaNovaFont;
     src: url('./../fonts/proxima-nova.otf');
@@ -193,7 +196,6 @@ div.form{
 }
 .container.middleBox{
     /*width: 340px;*/
-
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
@@ -207,9 +209,6 @@ div.form{
     left:79px;
     height: 520px;
 }
-/*.info1{*/
-    /*width: 340px;*/
-/*}*/
 .lastInfo{
    width:414px;
 }
@@ -361,7 +360,6 @@ background-color: #253957;
     border-bottom: 1px solid lightgray;
 }
 .online{
-    border-left: 1px solid lightgray;
     height: 100px;
 }
 .full-color p {
@@ -386,7 +384,6 @@ background-color: #253957;
     font-family: proximaSemiboldFont;
     font-size: 14px;
     color: #253957;
-
 }
 .full-colors{
     position: relative;
@@ -399,16 +396,54 @@ background-color: #253957;
     position: relative;
     top: 30px;
 }
+.question{
+    color: #F6B431;
+    font-family: proximaNovaFont;
+    font-size: 16px;
+}
+.context{
+    color: #3A557C;
+    font-family: proximaNovaFont;
+    font-size: 14px;
+}
+.date{
+    font-family: proximaItalicFont;
+    font-size: 14px;
+    color: #B1BDCF;
+}
+.ulImg{
+    list-style-type: none;
+
+}
+.ulImg li{
+    display: inline-block;
+}
+.contentPostImg span {
+    position: relative;
+    z-index: 0;
+    color: white;
+    bottom: 50px;
+    left:60px;
+}
+/*.contentPost{*/
+    /*margin-left: 20px;*/
+/*}*/
+.line {
+    border-left: 1px solid lightgrey;
+}
+.heading {
+    font-family: proximaSemiboldFont;
+    font-size: 18px;
+    color: #F6B431;
+}
 
 /* footer */
 footer {
     position: relative;
     top: 300px;
     background-color:#253957;
-    /*min-height:420px;*/
     max-height:431px;
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
 }
 .footerleft {
     margin-top:50px;
@@ -474,7 +509,6 @@ footer {
     float:left;
     margin-right:5px;
 }
-
 
 .copyright { min-height:40px; background-color:#000000;}
 .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
