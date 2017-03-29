@@ -21,10 +21,6 @@ class PageView {
     about(selector) {
         return loadRawTemplate(selector, 'about-us');
     }
-
-    // homePage(selector, homePage) {
-    //     return setHtmlWithCompiledData(selector, homePage, 'home');
-    // }
     homePage(selector) {
         return loadRawTemplate(selector, 'home');
     }
@@ -34,6 +30,13 @@ class PageView {
     register(selector) {
         return loadRawTemplate(selector, 'register');
     }
+    bulletin(selector) {
+        return loadRawTemplate(selector, 'bulletin');
+    }
+
+    // homePage(selector, homePage) {
+    //     return setHtmlWithCompiledData(selector, homePage, 'home');
+    // }
     images(selector, data) {
         return setHtmlWithCompiledData(selector, data, 'images');
     }

@@ -30,9 +30,9 @@ import { usersController } from './js/controllers/users-controller.js';
             imagesController.images(context, '#main-content');
         });
 
-        // this.get('#/shop', (context) => {
-        //     shopController.shop(context, '#main-content');
-        // });
+        this.get('#/bulletin', (context) => {
+            homeController.bulletin(context, '#main-content');
+        });
     });
 
     $(function() {

@@ -18,6 +18,10 @@ class HomeController {
     about(context, selector) {
         return pageView.about(selector);
     }
+
+    bulletin(context, selector) {
+        return pageView.bulletin(selector);
+    }
 }
 
 let homeController = new HomeController();

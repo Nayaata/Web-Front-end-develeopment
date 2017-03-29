@@ -1,0 +1,111 @@
+@font-face {
+    font-family: proximaItalicFont;
+    src: url('./../fonts/proxima-nova-regular-italic.otf');
+}
+@font-face {
+    font-family: proximaSemiboldFont;
+    src: url('./../fonts/proxima-nova-semibold.otf');
+}
+@font-face {
+    font-family: proximaNovaFont;
+    src: url('./../fonts/proxima-nova.otf');
+}
+
+@font-face {
+    font-family: ubuntuMediumFont;
+    src: url('./../fonts/Ubuntu-M.ttf');
+}
+
+@font-face {
+    font-family: ralewayLightFont;
+    src: url('./../fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: ralewayMediumFont;
+    src: url('./../fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: proximaBoldFont;
+    src: url('./../fonts/proxima-nova-bold.otf');
+}
+
+@font-face {
+    font-family: fontAwesomeFont;
+    src: url('./../fonts/fontawesome-webfont.ttf');
+}
+
+@font-face {
+    font-family: openSansFont;
+    src: url('./../fonts/OpenSans-Regular.ttf');
+}
+.jumbotron {
+    background-image: url('./../images/AvalanchesScale.jpg');
+    height: 500px;
+    max-width: 900px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 170px;
+}
+.gallery{
+    text-align: center;
+    color: white;
+    background-color: #F6B431;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.danger{
+    position: relative;
+    left: 100px;
+}
+.importants, ol{
+    color: #F6B431;
+}
+.importants{
+    text-decoration: underline;
+}
+ol p{
+    color: #466289
+}
+.unordered{
+    list-style-type: circle;
+    background-color: #F6B431;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.marketing div, .marketing p {
+    font-family: proximaNovaFont;
+    font-size: 14px;
+    color: #466289
+}
+
+.form-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}
+.helpguide {
+    text-decoration: underline;
+}
+
+.link {
+    background-color: #466289;
+    padding: 10px
+}
+
+.link a {
+    color: white;
+}
+.linkss{
+    background-color: #F6B431;
+    padding: 10px
+}
+.linkss a {
+    color: white;
+}
+.drug-abuse {
+    text-decoration: underline;
+    color: #466289;
+}
