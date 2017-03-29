@@ -26,8 +26,8 @@ class UserModel {
         let promise = new Promise((resolve, reject) => {
             let url = kinvey_URL + 'user/' + kinvey_APP_ID;
             let authBase64 = btoa(kinvey_APP_ID + ":" + kinvey_APP_SECRET);
-            let headers = { Authorization: "Basic " + authBase64 }
-            let data = createRequestOptions(user)
+            let headers = { Authorization: "Basic " + authBase64 };
+            let data = createRequestOptions(user);
             let options = { headers, data };
             requester.post(url, options)
                 .then(function(res) {
@@ -43,12 +43,11 @@ class UserModel {
     }
 
     login(user) {
-
         let promise = new Promise((resolve, reject) => {
             let url = kinvey_URL + 'user/' + kinvey_APP_ID + '/login';
             let authBase64 = btoa(kinvey_APP_ID + ":" + kinvey_APP_SECRET);
-            let headers = { Authorization: "Basic " + authBase64 }
-            let data = createRequestOptions(user)
+            let headers = { Authorization: "Basic " + authBase64 };
+            let data = createRequestOptions(user);
             let options = { headers, data };
             requester.post(url, options)
                 .then(function(res) {
@@ -75,7 +74,7 @@ class UserModel {
         let promise = new Promise((resolve, reject) => {
             let url = kinvey_URL + 'user/' + kinvey_APP_ID + '/_logout';
             let authBase64 = btoa(kinvey_APP_ID + ":" + kinvey_APP_SECRET);
-            let headers = { Authorization: "Kinvey " + localStorage.getItem(STORAGE_AUTH_KEY) }
+            let headers = { Authorization: "Kinvey " + localStorage.getItem(STORAGE_AUTH_KEY) };
             let options = { headers };
             requester.post(url, options)
                 .then(function(res) {
