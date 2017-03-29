@@ -33,12 +33,11 @@ class PageView {
     bulletin(selector) {
         return loadRawTemplate(selector, 'bulletin');
     }
-
-    // homePage(selector, homePage) {
-    //     return setHtmlWithCompiledData(selector, homePage, 'home');
-    // }
     images(selector, data) {
         return setHtmlWithCompiledData(selector, data, 'images');
+    }
+    courses(selector, data) {
+        return setHtmlWithCompiledData(selector, data, 'courses');
     }
 }
 

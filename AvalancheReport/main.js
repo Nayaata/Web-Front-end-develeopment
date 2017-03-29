@@ -1,6 +1,7 @@
 ﻿import { homeController } from './js/controllers/home-controller.js';
 import { imagesController } from './js/controllers/images-controller.js';
 import { usersController } from './js/controllers/users-controller.js';
+import { coursesController } from './js/controllers/courses-controller.js';
 
 (function() {
     let sammyApp = Sammy('#main-content', function() {
@@ -32,6 +33,9 @@ import { usersController } from './js/controllers/users-controller.js';
 
         this.get('#/bulletin', (context) => {
             homeController.bulletin(context, '#main-content');
+        });
+        this.get('#/courses', (context) => {
+            coursesController.courses(context, '#main-content');
         });
     });
 
