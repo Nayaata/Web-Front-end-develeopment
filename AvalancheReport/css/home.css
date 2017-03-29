@@ -438,7 +438,34 @@ background-color: #253957;
     font-size: 18px;
     color: #F6B431;
 }
+.player{
 
+    position: relative;
+    left: 40px;
+    bottom: 60px;
+    color: white;
+}
+.playTxt{
+    position: relative;
+    left:70px;
+    bottom: 33px;
+    font-family: proximaSemiboldFont;
+    font-size: 16px;
+}
+.players{
+
+    position: relative;
+    left: 10px;
+    bottom: 60px;
+    color: white;
+}
+.playTxts{
+    position: relative;
+    left:30px;
+    bottom: 33px;
+    font-family: proximaSemiboldFont;
+    font-size: 16px;
+}
 /* footer */
 footer {
     position: relative;
