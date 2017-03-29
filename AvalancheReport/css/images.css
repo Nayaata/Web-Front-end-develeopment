@@ -1,8 +1,71 @@
+@font-face {
+    font-family: proximaItalicFont;
+    src: url('./../fonts/proxima-nova-regular-italic.otf');
+}
+@font-face {
+    font-family: proximaSemiboldFont;
+    src: url('./../fonts/proxima-nova-semibold.otf');
+}
+@font-face {
+    font-family: proximaNovaFont;
+    src: url('./../fonts/proxima-nova.otf');
+}
+
+@font-face {
+    font-family: ubuntuMediumFont;
+    src: url('./../fonts/Ubuntu-M.ttf');
+}
+
+@font-face {
+    font-family: ralewayLightFont;
+    src: url('./../fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: ralewayMediumFont;
+    src: url('./../fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: proximaBoldFont;
+    src: url('./../fonts/proxima-nova-bold.otf');
+}
+
+@font-face {
+    font-family: fontAwesomeFont;
+    src: url('./../fonts/fontawesome-webfont.ttf');
+}
+
+@font-face {
+    font-family: openSansFont;
+    src: url('./../fonts/OpenSans-Regular.ttf');
+}
+
 .img-thubnail{
     width: 300px;
     height: 200px;
 }
-
+.description{
+    position: relative;
+    top:15px;
+    max-width: 300px;
+    font-family: proximaSemiboldFont;
+    font-size: 13px;
+    color: #283649;
+}
+.picTitle{
+    text-align: center;
+    max-width: 300px;
+    font-family: proximaBoldFont;
+    font-size: 30px;
+    color: #283649;
+}
+.gallery{
+    text-align: center;
+    color: white;
+    background-color: #F6B431;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 @media (min-width: 481px) {
     .portfolio img {
         width: 50%;
